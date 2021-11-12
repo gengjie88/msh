@@ -8,7 +8,7 @@
     2.执行npm run install 下载所需要的依赖包
     3.执行npm run dev 进入开发环境
 ### 产品环境
-    1.1.拥有nodejs环境 v16.50
+    1.拥有nodejs环境 v6.0.0以上
     2.执行npm run install 下载所需要的依赖包
     3.执行npm run build 生产dist文件
     4.将文件夹下内容移动的web服务器目录下。（以文件的形式打不开）
