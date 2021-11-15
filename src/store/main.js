@@ -137,7 +137,7 @@ export default {
         line1Cur(context) {
             let newObj = context.state.lineData1;
             axios
-                .post("http://10.22.104.89:49823/api/DbComm/GetData", [
+                .post("/api/DbComm/GetData", [
                     "data\\tag1",
                     "data\\tag2",
                 ])
@@ -160,7 +160,7 @@ export default {
         line3Cur(context) {
             let newObj = context.state.lineData3;
             axios
-                .post("http://10.22.104.89:49823/api/DbComm/GetData", [
+                .post("/api/DbComm/GetData", [
                     "data\\tag1",
                     "data\\tag2",
                     "data\\tag3"
